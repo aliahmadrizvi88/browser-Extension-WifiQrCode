@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+
+body,
+html {
+  background: #acb6e5;
+  background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);
+  background: linear-gradient(to right, #86fde8, #acb6e5);
+  width: 300px;
+  height: 400px;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
