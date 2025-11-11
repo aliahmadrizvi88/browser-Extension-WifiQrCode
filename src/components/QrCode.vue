@@ -9,8 +9,27 @@ const qrCode = ref('');
 const viewMode = ref('form');
 const generatedSSID = ref('');
 
+//For Validatoion:
+const ssidError = ref(false);
+const passwordError = ref(false);
+
 async function generate() {
-  if (!ssid.value || !password.value) {
+  ssidError.value = false;
+  passwordError.value = false;
+
+  if (!ssid.value.trim() || ssid.value.length > 32) {
+    ssidError.value = true;
+  }
+
+  if (
+    !password.value.trim() ||
+    password.value.length > 63 ||
+    password.value.length < 8
+  ) {
+    passwordError.value = true;
+  }
+
+  if (ssidError.value || passwordError.value) {
     qrCode.value = '';
     return;
   }
@@ -66,7 +85,10 @@ function downloadQR() {
                 type="text"
                 placeholder="SSID"
                 v-model="ssid"
-                class="bg-white py-2 px-3 rounded-lg outline-none w-full border border-gray-300"
+                :class="[
+                  'bg-white py-2 px-3 rounded-lg outline-none w-full border',
+                  ssidError ? 'border-red-500' : 'border-gray-300',
+                ]"
               />
             </div>
 
@@ -78,7 +100,10 @@ function downloadQR() {
                 type="password"
                 placeholder="Password"
                 v-model="password"
-                class="bg-white py-2 px-3 rounded-lg outline-none w-full border border-gray-300"
+                :class="[
+                  'bg-white py-2 px-3 rounded-lg outline-none w-full border',
+                  passwordError ? 'border-red-500' : 'border-gray-300',
+                ]"
               />
             </div>
           </div>
@@ -133,12 +158,24 @@ function downloadQR() {
 .slide-fade-leave-active {
   transition: all 0.5s ease;
 }
-.slide-fade-enter-form {
+
+.slide-fade-enter-from {
   transform: translateX(100%);
   opacity: 0;
 }
+
+.slide-fade-enter-to {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-fade-leave-from {
+  transform: translateX(0);
+  opacity: 1;
+}
+
 .slide-fade-leave-to {
   transform: translateX(-100%);
-  opacity: 1;
+  opacity: 0;
 }
 </style>
