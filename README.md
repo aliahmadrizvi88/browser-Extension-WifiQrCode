@@ -2,8 +2,7 @@
 
 A simple, fast, and secure browser extension built with **Vue 3** and **Tailwind CSS** to generate a scannable QR code for easy WiFi network sharing.
 
-**NOTE**: This extension is up on the google chorme store and can use it i would love if you make some improve in these and tell me about.
-
+**NOTE**: This extension is up on the google chorme store and can use it i would love if you make some improvement in this and tell me about.
 ---
 
 ## 💡 Features
