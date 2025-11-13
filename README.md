@@ -4,6 +4,8 @@ A simple, fast, and secure browser extension built with **Vue 3** and **Tailwind
 
 **NOTE**: This extension is up on the google chorme store and can use it i would love if you make some improvement in this and tell me about.
 
+[![Linkedin]](https://chromewebstore.google.com/detail/bepafkjkjgoplblekaijndbodjgcdfnh?utm_source=item-share-cb)
+
 ---
 
 ## 💡 Features
