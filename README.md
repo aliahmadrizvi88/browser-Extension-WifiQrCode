@@ -11,8 +11,11 @@ A simple, fast, and secure browser extension built with **Vue 3** and **Tailwind
 - **Image Download:** Includes a button to download the generated QR code as a PNG file.
 - **Modern Stack:** Built using Vue 3 (Composition API) and styled with Tailwind CSS.
 
-Inline-style: 
-![alt text](https://lh3.googleusercontent.com/Rlw8T7QrC9tS5NTRFCDbDw6JpkFnowaSQJw-dLBgmjtf4QtBgx9P_TWMAohhXrxhJhLFLIhZt6mBn4jcDIFoeJ_em3s=s1280-w1280-h800 "")
+![alt text](https://lh3.googleusercontent.com/Rlw8T7QrC9tS5NTRFCDbDw6JpkFnowaSQJw-dLBgmjtf4QtBgx9P_TWMAohhXrxhJhLFLIhZt6mBn4jcDIFoeJ_em3s=s1280-w1280-h800 "img")
+![alt text](https://lh3.googleusercontent.com/jB8Bk-Fem6bk0gXVZcKImzSZY-s22h0lnBl9VGYCKOv1s1vO1nQXI7mm8EvcwEnKMR1a5zGkA4fJd1R-XcX-C4xY=s1280-w1280-h800 "img01")
+![alt text](https://lh3.googleusercontent.com/HyqXBTMYH78x-sz0FBLccYUQ3nrA6DqyE6iRYuYz9nKVAxxO_3L9OHdwEyNM-_t6nvLCrezgAM9ceYPyCJBWqt8i2A=s1280-w1280-h800 "img02")
+![alt text](https://lh3.googleusercontent.com/6F0GSUqd6Cigy3ttuDCg0Srt9QbV-gUPF00rcLxW1yMiJu2rTwuFz3C-NME7ZCWTt2O9y35tDeIk1YIM6t6SJNjtdjM=s1280-w1280-h800 "img03")
+![alt text](https://lh3.googleusercontent.com/FpJi23WFrT8rrh8P4TCRKrqskw6xKJYeilMJhcKDGZXxWBhmPTR-A7GrxRi8kLCzh5q9pteDHhNyzIs_OyMEHV4ejg=s1280-w1280-h800 "img04")
 ---
 
 ## 💻 Tech Stack
