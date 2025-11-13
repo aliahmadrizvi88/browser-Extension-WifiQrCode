@@ -11,6 +11,8 @@ A simple, fast, and secure browser extension built with **Vue 3** and **Tailwind
 - **Image Download:** Includes a button to download the generated QR code as a PNG file.
 - **Modern Stack:** Built using Vue 3 (Composition API) and styled with Tailwind CSS.
 
+Inline-style: 
+![alt text]([https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png](https://lh3.googleusercontent.com/Rlw8T7QrC9tS5NTRFCDbDw6JpkFnowaSQJw-dLBgmjtf4QtBgx9P_TWMAohhXrxhJhLFLIhZt6mBn4jcDIFoeJ_em3s=s1280-w1280-h800) "")
 ---
 
 ## 💻 Tech Stack
