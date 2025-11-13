@@ -115,9 +115,7 @@ function downloadQR() {
             Generate
           </button>
         </div>
-      </Transition>
-
-      <Transition name="slide-fade" mode="out-in">
+        
         <div
           v-if="viewMode === 'qr'"
           key="qr-view"
